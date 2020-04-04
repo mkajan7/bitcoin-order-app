@@ -5,10 +5,10 @@ node_js:
 dist: bionic
 sudo: required
 
-
 notifications:
   email:
-    recipients:e0520974@u.nus.edu
+    recipients:
+      - e0520974@u.nus.edu
     on_success: always
     on_failure: always
 branches:
